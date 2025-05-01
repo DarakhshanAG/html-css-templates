@@ -1,7 +1,10 @@
 @font-face {
     font-family: "poppins", sans-serif;
-    src: url(E:\Darakhshan\html-css-templates\app-launch\assets\fonts\Poppins);
+    src: url(E:\Darakhshan\html-css-templates\app-launch\assets\fonts\Poppins) format('poppins');
   }
+  selector {
+    font-family: 'poppins';
+}
   body{
     font-family: "poppins", sans-serif;
     font-size: 16px;

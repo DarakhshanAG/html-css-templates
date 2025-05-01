@@ -1,6 +1,8 @@
 .clarity-section{
     display: flex;
     background-color: #F1F1F1;
+    align-items: center;
+    justify-content: space-between;
 }
 .clarity-img{
     margin: 64px 128px 64px 24px;
@@ -12,11 +14,12 @@
 }
 .clarity-who{
     color: red;
+    font-size: 48px;
 }
 .clarity-text{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .clarity-text-large{
-    font-size: 28px;
+    font-size: 24px;
 }

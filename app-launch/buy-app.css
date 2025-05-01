@@ -1,12 +1,14 @@
 .buy-app{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .app-heading{
-    font-size: 50px;
+    font-size: 64px;
     color: black;
 }
 .buy-heading{
-    font-size: 50px;
+    font-size: 48px;
     color: #4CAF50;
 }
 .buy-app-content{
@@ -14,8 +16,8 @@
     padding: 16px;
 }
 .buy-app-text{
-    margin: 24px 256px 18px 0;
-    padding: 16px;
+    /* margin: 24px 256px 18px 0;
+    padding: 16px; */
     font-size: 18px;
 }
 .buy-app-text-large{
@@ -42,7 +44,3 @@
 .logo-windows{
     color: #09e0fe;
 }
-/* .buy-app-img{
-    width:120%;
-    height: 120%;
-} */

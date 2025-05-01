@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "poppins", sans-serif;
+    src: url(E:\Darakhshan\html-css-templates\app-launch\assets\fonts\Poppins);
+  }
+  body{
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+.fw700{
+    font-weight: 700;
+    font-size: 24px;
+}
+.fw400{
+    font-weight: 400;
+    font-size: 24px;
+}

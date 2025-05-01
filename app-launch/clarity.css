@@ -1,0 +1,22 @@
+.clarity-section{
+    display: flex;
+    background-color: #F1F1F1;
+}
+.clarity-img{
+    margin: 64px 128px 64px 24px;
+    
+}
+    
+.clarity-heading, .clarity-who{
+    font-size: 64px;
+}
+.clarity-who{
+    color: red;
+}
+.clarity-text{
+    font-size: 18px;
+}
+
+.clarity-text-large{
+    font-size: 28px;
+}

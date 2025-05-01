@@ -1,0 +1,48 @@
+.buy-app{
+    display: flex;
+}
+.app-heading{
+    font-size: 50px;
+    color: black;
+}
+.buy-heading{
+    font-size: 50px;
+    color: #4CAF50;
+}
+.buy-app-content{
+    margin: 24px;
+    padding: 16px;
+}
+.buy-app-text{
+    margin: 24px 256px 18px 0;
+    padding: 16px;
+    font-size: 18px;
+}
+.buy-app-text-large{
+    font-size: 28px;
+}
+
+.download-app-btn{
+    font-size:20px;
+    margin: 24px;
+    padding: 16px;
+    border-style: none;
+}
+.download-app-btn:hover{
+    background-color: rgb(211, 208, 208);
+    cursor: pointer;
+}
+.available-brands{
+    font-size:20px;
+    padding: 16px;
+}
+.logo-android{
+    color: green;
+}
+.logo-windows{
+    color: #09e0fe;
+}
+/* .buy-app-img{
+    width:120%;
+    height: 120%;
+} */

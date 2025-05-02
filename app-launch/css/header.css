@@ -1,6 +1,6 @@
 
 .container{
-    background-image: url('app.jpg');
+    background-image: url('../images/app.jpg');
     background-repeat: no-repeat;
     height: 130vh;
     display: flex;

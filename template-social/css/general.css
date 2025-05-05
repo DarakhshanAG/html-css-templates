@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+}
+    
+.fw400{
+    font-weight: 400;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.flex-column{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}

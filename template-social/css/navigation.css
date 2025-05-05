@@ -1,0 +1,46 @@
+
+nav{
+    background-color: #4D636F;
+    font-size: 22px;
+}
+.nav-flex{
+    display: flex;
+ 
+ color: white;
+
+ /* gap: 36px; */
+ /* padding: 12px; */
+
+}
+.flex-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-icon{
+    cursor: pointer;
+    background: none;
+    background-color: #3A4B53;
+    text-align: center;
+    
+}
+.home-padding{
+    padding-right:8px;
+}
+.nav-padding{
+    padding: 16px; 
+    text-align: center; 
+}
+.home-icon:hover{
+    background-color:#CCCCCC;
+    color: black;
+}
+.nav-icons{
+    cursor: pointer;
+    text-align: center;
+}
+.nav-icons:hover{
+    background-color:#FFF;
+    color: black;
+    
+}

@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Social App</title>
+    
+    <link rel="stylesheet" href="css/typography.css">
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/general.css">
-    
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/upcoming-events-section.css">
+    <link rel="stylesheet" href="css/posts.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
+  <header>
     <nav>
     <div class="flex-right">
         <div class="nav-flex">
@@ -22,38 +28,217 @@
     </div>
 
     <div>
-        <div class="nav-icons nav-padding"><ion-icon class="fw400" title="My Account" name="person-circle"></ion-icon></div>
+        <div class="nav-icons profile-icon"><img src="images/avatar2.png" alt="profile-picture"></div>
     </div>
 </div>
     </nav>
+  </header>
 
-    <section>
-        <div class="flex-column">
-            
-        <div> <h1> My Profile </h1> </div>
-        <div> <ion-icon  name="person-circle"></ion-icon></div>
-        <hr>
-        <div> <ion-icon name="pencil"></ion-icon>
+  <main>
+    <section class="content-section">
+    
+        <div class="first-column"> 
+        <div class="profile-section"> 
+          <div class="profile-border-bottom">           
+        <div> <h1 class="my-profile fw400"> My Profile </h1> </div>
+        <div class="profile-picture"> <img src="images/avatar3.png" alt="profile picture"></div> </div>
+       
+        <div> <ion-icon class="profile-icon" name="pencil"></ion-icon>
         Designer, UI</div>
-        <div> <ion-icon name="home"></ion-icon>
+        <div> <ion-icon class="profile-icon" name="home"></ion-icon>
         London, UK</div>
-        <div> <ion-icon name="happy-outline"></ion-icon>
-        April 1, 1988</div>
-        
+        <div> <ion-icon class="profile-icon" name="happy-outline"></ion-icon>
+        April 1, 1988</div>        
     </div>
+
+    <div class="menu-section">
+      <div class="menu">
+        <ion-icon class="menu-icon" name="ellipse-outline"></ion-icon>
+       My Groups 
+      </div>
+      <div class="menu">
+        <ion-icon class="menu-icon" name="calendar-outline"></ion-icon>
+      My Events 
+      </div>
+      <div class="menu">
+        <ion-icon class="menu-icon" name="people-outline"></ion-icon>
+       My Photos 
+      </div>
+    </div>
+
+    <div class="interests">
+      <div>
+        <p class="fw400 interest-heading"> Interests </p>
+        <div class="interests-items">
+        <div><p class="news-interest"> News </p></div>
+        <div><p class="W3Schools-interest"> W3Schools </p></div>
+        <div><p class="Labels-interest"> Labels </p></div>
+        <div><p class="Games1-interest"> Games </p></div>
+        <div><p class="Friends1-interest"> Friends </p></div>
+        <div><p class="Games2-interest"> Games </p></div>
+        <div><p class="Friends2-interest"> Friends </p></div>
+        <div><p class="Food-interest"> Food </p></div>
+        <div><p class="Design-interest"> Design </p></div>
+        <div><p class="Art-interest"> Art </p></div>
+        <div><p class="Photos-interest"> Photos </p></div>
+        </div>
+      </div>
+</div>
+
+      <div class="find-out-section">
+        <div class="hey">
+        <div> <p class="fw700 hey-text"> Hey! </p> </div>
+        <div> <p class="close fw400">x</p> </div>
+        </div>
+
+        <p class="find-out-text"> People are looking at your profile. Find out who. </p>
+      </div>
+
+    
+    </div>
+
+    <div class="news-feed-section ">
+    <div class="status-update">
+      <p class="social-media">Social Media template by w3.css</p>
+      <p class="news-status">Status: Feeling Blue</p>
+      <button class="post-btn"><ion-icon class="pencil-icon" name="pencil"></ion-icon>Post</button>
+    </div>
+    <article class="article1">
+      <div >
+        <div class="post-info profile-border-bottom">
+        <div class="profile-icon-name">
+        <div class="post-profile-icon"> <img src="images/avatar2.png" alt="profile picture"> </div>
+        <div><p class="author-name"> John Doe </p></div></div>
+        <div><p class="post-time"> 1 min </p></div>
+        </div>
+
+        <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <div class="article1-imges">
+        <div><img class="article1-img" src="images/lights.jpg" alt="lights"> </div>
+        <div><img class="article1-img" src="images/nature.jpg" alt="nature"> </div>
+        </div>
+
+        <div class="like-comment-btn">
+        <div>
+        <button class="post-btn like-btn-margin"><ion-icon class="btn-icon" name="thumbs-up"></ion-icon>Like</button> </div>
+        
+        <div>
+        <button class="post-btn like-btn-margin comment-btn"><ion-icon class="btn-icon" name="chatbubble"></ion-icon>Comment</button> </div>
+        </div>
+
+      </div>
+      </article>
+
+
+      <article class="article2">
+
+      <div>
+       <div class="post-info profile-border-bottom">
+        <div class="profile-icon-name">
+        <div class="post-profile-icon"> <img src="images/avatar5.png" alt="profile picture"> </div>
+        <div><p class="author-name"> Jane Doe </p></div></div>
+        <div><p class="post-time"> 16 min </p></div>
+        </div>
+        <p  class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+      <div class="like-comment-btn">
+        <div>
+        <button class="post-btn like-btn-margin"><ion-icon class="btn-icon" name="thumbs-up"></ion-icon>Like</button> </div>
+        
+        <div>
+        <button class="post-btn like-btn-margin comment-btn"><ion-icon class="btn-icon" name="chatbubble"></ion-icon>Comment</button> </div>
+        </div>
+        
+      </div>
+      </article>
+
+
+      <article class="article3">
+      <div>
+         <div class="post-info profile-border-bottom">
+        <div class="profile-icon-name">
+        <div class="post-profile-icon"> <img src="images/avatar6.png" alt="profile picture"> </div>
+        <div><p class="author-name"> Angie Jane </p></div></div>
+        <div><p class="post-time"> 32 min </p></div>
+        </div>
+
+        <p  class="post-text">Have you seen this?</p>
+
+        
+        <div><img class="article3-img" src="images/nature.jpg" alt="nature"> </div>
+
+        <p  class="post-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+<div class="like-comment-btn">
+        <div>
+        <button class="post-btn like-btn-margin"><ion-icon class="btn-icon" name="thumbs-up"></ion-icon>Like</button> </div>
+        
+        <div>
+        <button class="post-btn like-btn-margin comment-btn"><ion-icon class="btn-icon" name="chatbubble"></ion-icon>Comment</button> </div>
+        </div> 
+        
+      </div>
+
+    </article>
+    </div>
+
+    <div class="upcoming-events-section ">
+    <aside class="aside1" >
+      <div> <p class="aside1-text">Upcoming Events:</p> </div>
+      <div class="forest-picture"> <img class="center-img" src="images/forest.jpg" alt="forest picture"> </div>
+      <div><p class="holiday fw700"> Holiday </p> </div>
+      <div><p class="friday"> Friday 15:00 </p> </div>
+      <div class="aside1-btn"><button class="info-btn">Info</button> </div>
+      </aside>
+      
+      <aside class="aside2">
+      <div> <p class="aside2-text">Friend Request</p> </div>
+    <div class="friend-request"> <img class="center-img-friend" src="images/avatar6.png" alt="friend-request"> </div>
+     <p class="friend-request-text"> Jane Doe </p>
+     <div class="tick-cross">
+     <div>
+     <button class="tick"><ion-icon name="checkmark"></ion-icon></button></div>
+       <div>
+     <button class="cross"> <ion-icon name="close"></ion-icon> </button></div>
+     </div>
+    </aside>
+
+    <aside class="aside3">
+      <p class="ads"> ADS </p> </aside>
+
+       <aside class="aside4">
+        <div class="bug" >
+      <ion-icon name="bug"></ion-icon></div>
+    </aside>
+    
+      </div>
+   
+
+    
+
     </section>
 
+    
+    
+
+    
+    
+
+    
+
+    
     <br>
     <br>
     <br>
     <br>
     
+  </main>
 
     <footer class="footer">
       <p> 
        Footer
       </p>
-      <p> Powered by <a href= "https://www.w3schools.com/w3css/default.asp"> w3.css </a></p>
+      <p class="powered"> Powered by <a class="w3css" href= "https://www.w3schools.com/w3css/default.asp"> w3.css </a></p>
     </footer>
 
     <script

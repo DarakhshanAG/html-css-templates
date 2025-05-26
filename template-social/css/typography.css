@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    src: url(E:\Darakhshan\html-css-templates\template-social\assets\Open_Sans) format('Open Sans');
+  }
+  selector {
+    font-family: 'Open Sans';
+}
+.Open_Sans-font{
+  font-family: 'Open Sans';
+}
+  body{
+    font-family: 'Open Sans';
+  }
+
+.fw700{
+    font-weight: 700;
+}
+.fw400{
+    font-weight: 400;  
+}

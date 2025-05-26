@@ -1,16 +1,12 @@
 
 nav{
     background-color: #4D636F;
-    font-size: 22px;
+    font-size: 18px;
+    position: static;
 }
 .nav-flex{
     display: flex;
- 
- color: white;
-
- /* gap: 36px; */
- /* padding: 12px; */
-
+    color: white;
 }
 .flex-right{
     display: flex;
@@ -28,7 +24,7 @@ nav{
     padding-right:8px;
 }
 .nav-padding{
-    padding: 16px; 
+    padding: 12px 24px; 
     text-align: center; 
 }
 .home-icon:hover{
@@ -43,4 +39,10 @@ nav{
     background-color:#FFF;
     color: black;
     
+}
+.profile-icon img{
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    padding: 8px 8px;
 }

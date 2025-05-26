@@ -1,0 +1,235 @@
+.upcoming-events-section{
+    /* display: flex; */
+    flex: 1;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* border: 1px solid; */
+    margin: 28px;
+}
+.aside1,.aside2,.aside3,.aside4{
+     box-shadow: 5px 5px 5px 5px #D7D9D9;
+}
+.aside1-text, .aside2-text{
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 0;
+}
+.forest-picture img{
+    width: 190px;
+  
+}
+.center-img{
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.holiday, .friday{
+    text-align: center; 
+    padding:18px 0px 0 0;
+    font-size: 15px;
+}
+.aside1-btn{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.info-btn{
+    font-size: 15px;
+    width: 195px;
+    height: 45px;
+    border: none;
+    background-color: #DFE5E8;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.info-btn:hover{
+    cursor: pointer;
+     background-color: #CCCCCC;
+}
+.center-img-friend{
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  height: 100px;
+
+}
+
+.friend-request-text{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tick-cross{
+    display: flex;
+ justify-content: center;
+  padding-bottom: 20px;
+}
+.tick{
+    color: white;
+    background-color: #94cf96;
+    width: 100px;
+    height: 36px;
+    border-style: none;
+}
+.cross{
+    color: white;
+    background-color: #F88E86;
+    width: 100px;
+    height: 36px;
+    border-style: none;
+    /* padding: 0 0 0 -3px;  */
+}
+.tick:hover, .cross:hover
+{
+    color: #747474;
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
+.ads{
+    width: 226px;
+    /* height: 82px; */
+    text-align: center;
+    /* border-style: none; */
+    padding: 41px;
+    margin: 30px 0 30px 0;
+}
+.aside4{
+    padding: 50px 0;
+}
+.bug{
+
+   margin: 50px 150px;
+    font-size: 36px;
+
+}
+.menu-section, .interests{
+    border: 1px solid;
+    box-shadow: 5px 5px 5px 5px #D7D9D9;
+    border-style: none;
+    margin-bottom: 24px;
+}
+.menu-section{
+    padding-bottom: 15px;
+    background-color:#7D97A5;
+}
+.menu{
+    background-color: #7D97A5;
+    color: white;
+    width: 332px;
+    font-size: 15px;
+}
+.menu:hover{
+    color: black;
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+.menu-icon{
+     padding: 12px 15px 1px 15px;
+}
+
+.interest-heading{
+    padding-left: 15px;
+}
+.interests-items{
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    font-size: 12px;
+    margin: 20px 15px 20px 15px;
+    padding-bottom: 20px;
+    
+}
+.news-interest
+{
+    color: white;
+    background-color: #303E45;
+    padding: 2px 4px 2px 4px;
+}
+.W3Schools-interest{
+    color: white;
+    background-color: #3A4B53;
+    padding: 2px 4px 2px 4px;
+}
+.Labels-interest{
+    color: white;
+    background-color: #435761;
+    padding: 2px 4px 2px 4px;
+}
+.Games1-interest{
+    color:#F4FFF6;
+    background-color: #4D636F;
+    padding: 2px 4px 2px 4px;
+}
+.Friends1-interest{
+    color:#F4FFF6;
+    background-color: #57707D;
+    padding: 2px 4px 2px 4px;
+}
+.Games2-interest{
+    color:#F4FFF6;
+    background-color: #607D8B;
+    padding: 2px 4px 2px 4px;
+}
+.Friends2-interest{
+    color: #F7FFFC;
+    background-color: #7D97A5;
+    padding: 2px 4px 2px 4px;
+}
+.Food-interest{
+    color: black;
+    background-color: #9EB1BB;
+    padding: 2px 4px 2px 4px;
+
+}
+.Design-interest{
+    color: black;
+    background-color: #BECBD2;
+    padding: 2px 4px 2px 4px;
+}
+.Art-interest{
+    color: black;
+    background-color:#DFE5E8;
+    padding: 2px 4px 2px 4px;
+}
+.Photos-interest{
+     color: black;
+    background-color:#F5F7F8;
+    padding: 2px 4px 2px 4px;
+}
+
+.find-out-section{
+    background-color: #DFE5E8;
+    font-size: 15px;
+    border: 2px solid #D5D9DA;
+    padding-bottom:12px;
+
+}
+.hey{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hey-text{
+    margin: 15px 0px 15px 15px;
+}
+.close{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    background-color: #BECBD2;
+      padding: 8px 15px 8px 15px;
+}
+.close:hover{
+    cursor: pointer;
+   background-color: #CCCCCC;
+  
+}
+.find-out-text{
+    margin-left:15px;
+}
